@@ -24,8 +24,8 @@ export const globalStyles = globalCss({
   },
 
   body: {
-    color: '$text-default',
-    background: '$background-secondary',
+    color: '$gray600',
+    background: '$neutralWhite',
     fontFamily: 'Work Sans, sans-serif',
   },
 
