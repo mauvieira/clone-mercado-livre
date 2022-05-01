@@ -11,4 +11,5 @@ export const space = {
   10: '48px',
   11: '56px',
   12: '64px',
+  auto: 'auto'
 }
