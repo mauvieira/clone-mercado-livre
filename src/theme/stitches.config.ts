@@ -32,14 +32,4 @@ export const globalStyles = globalCss({
   button: {
     cursor: 'pointer',
   },
-
-  '::-moz-selection': {
-    color: '$background',
-    background: '$text-default',
-  },
-
-  '::selection': {
-    color: '$background',
-    background: '$text-default',
-  },
 });
