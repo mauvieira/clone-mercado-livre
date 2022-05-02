@@ -9,9 +9,6 @@ import Link from 'next/link'
 const Image = styled('img', {
   width: '230px',
   height: 'auto',
-  '@sm': {
-    width: '75px',
-  },
 });
 
 const Home: NextPage = () => {
@@ -45,7 +42,9 @@ const Home: NextPage = () => {
                   </Text>
                 </Box>
               </Flex>
-              <Text>Capital Federal</Text>
+              <Text css={{
+                pl: '$3'
+              }}>Capital Federal</Text>
             </Flex>
           </Box>
         </Link>

@@ -14,11 +14,7 @@ const HeaderStyled = styled('header', {
 
 const Image = styled('img', {
   width: '134px',
-  height: '34px',
-  '@sm': {
-    width: '75px',
-    height: '24px',
-  },
+  height: 'auto',
 });
 
 const SearchButton = styled('button', {
@@ -34,7 +30,13 @@ const SearchButton = styled('button', {
 export const Header = () => (
   <HeaderStyled>
     <Container>
-      <Flex gap="6">
+      <Flex gap="6" css={{
+        '@sm': {
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: '$3'
+        }
+      }}>
         <Image src="/logo.png" alt="Mercado Livre Logo" />
         <Flex css={{
           width: '100%'
