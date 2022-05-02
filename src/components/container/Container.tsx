@@ -20,14 +20,11 @@ export const Container = styled('div', {
         maxWidth: '1145px',
       },
       '4': {
-        maxWidth: '1440px',
-      },
-      '5': {
         maxWidth: 'none',
       },
     },
   },
   defaultVariants: {
-    size: '4',
+    size: '3',
   },
 });
