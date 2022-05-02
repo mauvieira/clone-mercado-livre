@@ -14,7 +14,6 @@ const Image = styled('img', {
   },
 });
 
-
 const Home: NextPage = () => {
   return (
     <Container css={{

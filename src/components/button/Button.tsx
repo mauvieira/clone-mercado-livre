@@ -24,6 +24,7 @@ export const Button = styled('button', {
   fontSize: '$2',
   fontWeight: 500,
   fontVariantNumeric: 'tabular-nums',
+  cursor: 'pointer',
 
   '&:disabled': {
     backgroundColor: '$slate2',
@@ -56,19 +57,15 @@ export const Button = styled('button', {
     variant: {
       blue: {
         backgroundColor: '$blue',
-        boxShadow: 'inset 0 0 0 1px $blue7',
         color: '$neutralWhite',
-        '@hover': {
-          '&:hover': {
-            boxShadow: 'inset 0 0 0 1px $blue8',
-          },
+        '&:hover': {
+          boxShadow: '$4',
         },
         '&:active': {
-          backgroundColor: '$blue3',
-          boxShadow: 'inset 0 0 0 1px $blue8',
+          boxShadow: '$4',
         },
         '&:focus': {
-          boxShadow: 'inset 0 0 0 1px $blue8, 0 0 0 1px $blue8',
+          boxShadow: '$4',
         },
       },
     },
