@@ -22,7 +22,7 @@ const Image = styled('img', {
 });
 
 const SearchButton = styled('button', {
-  background: '$gray400',
+  background: '$gray50',
   padding: '8px',
   width: '36px',
   borderRadius: '$1',
@@ -40,7 +40,7 @@ export const Header = () => (
           width: '100%'
         }}>
           <TextField
-            placeholder="Nunca deje de buscar..."
+            placeholder="Nunca deixe de buscar..."
             size="2"
           />
           <SearchButton>

@@ -25,7 +25,7 @@ export const globalStyles = globalCss({
 
   body: {
     color: '$gray600',
-    background: '$neutralWhite',
+    background: '$gray50',
     fontFamily: 'Work Sans, sans-serif',
   },
 
