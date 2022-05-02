@@ -29,7 +29,7 @@ const Product: NextPage = () => {
         p: '$4'
       }}>
         <Flex gap="5">
-          <Image src="https://cdn.pocket-lint.com/r/s/970x/assets/images/148215-gadgets-review-review-apple-ipod-touch-7th-generation-initial-review-still-here-for-the-non-streamers-image1-9lgy8uapxx.jpg" alt="Product Image" />
+          <Image src="https://via.placeholder.com/650" alt="Product Image" />
           <Box>
             <Text>Nuevo - 234 vendidos</Text>
             <Text css={{

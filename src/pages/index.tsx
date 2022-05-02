@@ -31,7 +31,7 @@ const Home: NextPage = () => {
           }}>
             <Flex justify="between">
               <Flex gap="3">
-                <Image src="https://cdn.pocket-lint.com/r/s/970x/assets/images/148215-gadgets-review-review-apple-ipod-touch-7th-generation-initial-review-still-here-for-the-non-streamers-image1-9lgy8uapxx.jpg" alt="Product Image" />
+                <Image src="https://via.placeholder.com/230" alt="Product Image" />
                 <Box>
                   <Text size="7">$ 1.980</Text>
                   <Text size="3" css={{
@@ -56,7 +56,7 @@ const Home: NextPage = () => {
           }}>
             <Flex justify="between">
               <Flex gap="3">
-                <Image src="https://cdn.pocket-lint.com/r/s/970x/assets/images/148215-gadgets-review-review-apple-ipod-touch-7th-generation-initial-review-still-here-for-the-non-streamers-image1-9lgy8uapxx.jpg" alt="Product Image" />
+                <Image src="https://via.placeholder.com/230" alt="Product Image" />
                 <Box>
                   <Text size="7">$ 1.980</Text>
                   <Text size="3" css={{
@@ -79,7 +79,7 @@ const Home: NextPage = () => {
           }}>
             <Flex justify="between">
               <Flex gap="3">
-                <Image src="https://cdn.pocket-lint.com/r/s/970x/assets/images/148215-gadgets-review-review-apple-ipod-touch-7th-generation-initial-review-still-here-for-the-non-streamers-image1-9lgy8uapxx.jpg" alt="Product Image" />
+                <Image src="https://via.placeholder.com/230" alt="Product Image" />
                 <Box>
                   <Text size="7">$ 1.980</Text>
                   <Text size="3" css={{
