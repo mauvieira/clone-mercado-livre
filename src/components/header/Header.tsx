@@ -3,6 +3,8 @@ import { Container } from 'components/container';
 import { TextField } from 'components/textfield';
 import { Flex } from 'components/flex';
 
+import Link from 'next/link'
+
 const HeaderStyled = styled('header', {
   backgroundColor: '$yellow',
   py: '$4',
@@ -15,6 +17,7 @@ const HeaderStyled = styled('header', {
 const Image = styled('img', {
   width: '134px',
   height: 'auto',
+  cursor: 'pointer'
 });
 
 const SearchButton = styled('button', {
@@ -37,7 +40,9 @@ export const Header = () => (
           gap: '$3'
         }
       }}>
-        <Image src="/logo.png" alt="Mercado Livre Logo" />
+        <Link href="/">
+          <Image src="/logo.png" alt="Mercado Livre Logo" />
+        </Link>
         <Flex css={{
           width: '100%'
         }}>
@@ -46,7 +51,7 @@ export const Header = () => (
             size="2"
           />
           <SearchButton>
-           <img src="/icons/search.svg" alt="Search" />
+            <img src="/icons/search.svg" alt="Search" />
           </SearchButton>
         </Flex>
       </Flex>
