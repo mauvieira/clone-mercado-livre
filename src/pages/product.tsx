@@ -7,10 +7,14 @@ import type { NextPage } from 'next'
 import { Button } from 'components/button'
 
 const Image = styled('img', {
-  width: '650px',
+  maxWidth: '650px',
+  width: '100%',
   height: 'auto',
+  '@md': {
+    maxWidth: '400px',
+  },
   '@sm': {
-    width: '300px',
+    maxWidth: '300px',
   },
 });
 
@@ -28,28 +32,51 @@ const Product: NextPage = () => {
         backgroundColor: '$neutralWhite',
         p: '$4'
       }}>
-        <Flex gap="5">
-          <Image src="https://via.placeholder.com/650" alt="Product Image" />
+        <Flex gap="5" css={{
+          '@md': {
+            gap: '$2',
+            flexDirection: 'column',
+            alignItems: 'center'
+          },
+        }}>
+          <Image src="https://cdn.pocket-lint.com/r/s/970x/assets/images/148215-gadgets-review-review-apple-ipod-touch-7th-generation-initial-review-still-here-for-the-non-streamers-image1-9lgy8uapxx.jpg" alt="Product Image" />
           <Box>
-            <Text>Nuevo - 234 vendidos</Text>
+            <Text css={{
+              '@md': {
+                textAlign: 'center'
+              },
+            }}>Nuevo - 234 vendidos</Text>
             <Text css={{
               fontSize: '$6',
               fontWeight: '$3',
-              mt: '$3'
+              mt: '$3',
+              '@md': {
+                textAlign: 'center'
+              },
             }}>Deco Reverse Sombrero Oxford</Text>
             <Text css={{
               fontSize: '$7',
               fontWeight: '$3',
-              mt: '$2'
+              mt: '$2',
+              '@md': {
+                textAlign: 'center'
+              },
             }}>$ 1.980</Text>
-            <Button css={{
-              width: '250px',
-              py: '$2',
-              fontSize: '$6',
-              mt: '$3'
+            <Box css={{
+             '@md': {
+              display: 'flex',
+              justifyContent: 'center'
+            },
             }}>
-              Comprar
-            </Button>
+              <Button css={{
+                width: '250px',
+                py: '$2',
+                fontSize: '$6',
+                mt: '$3',
+              }}>
+                Comprar
+              </Button>
+            </Box>
           </Box>
         </Flex>
         <Box css={{

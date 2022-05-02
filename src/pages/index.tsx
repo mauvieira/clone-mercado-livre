@@ -29,21 +29,41 @@ const Home: NextPage = () => {
             display: 'block',
             py: '$3'
           }}>
-            <Flex justify="between">
-              <Flex gap="3">
+            <Flex justify="between" css={{
+              '@sm': {
+                flexDirection: 'column',
+                alignItems: 'center'
+              }
+            }}>
+              <Flex gap="3" css={{
+                '@sm': {
+                  flexDirection: 'column',
+                  justifyContent: 'center',
+                  alignItems: 'center'
+                }
+              }}>
                 <Image src="https://via.placeholder.com/230" alt="Product Image" />
                 <Box>
-                  <Text size="7">$ 1.980</Text>
+                  <Text size="7" css={{
+                    '@sm': {
+                      textAlign: 'center'
+                    }
+                  }}>$ 1.980</Text>
                   <Text size="3" css={{
                     mt: '$2',
-                    maxWidth: '400px'
+                    maxWidth: '400px',
+                    '@sm': {
+                      textAlign: 'center'
+                    }
                   }}>
                     Apple Ipod Touch 5g 16gb Negro Igual a Nuevo Completo Unico!
                   </Text>
                 </Box>
               </Flex>
               <Text css={{
-                pl: '$3'
+                '@sm': {
+                  marginTop: '18px'
+                }
               }}>Capital Federal</Text>
             </Flex>
           </Box>
@@ -54,20 +74,42 @@ const Home: NextPage = () => {
             display: 'block',
             py: '$3'
           }}>
-            <Flex justify="between">
-              <Flex gap="3">
+            <Flex justify="between" css={{
+              '@sm': {
+                flexDirection: 'column',
+                alignItems: 'center'
+              }
+            }}>
+              <Flex gap="3" css={{
+                '@sm': {
+                  flexDirection: 'column',
+                  justifyContent: 'center',
+                  alignItems: 'center'
+                }
+              }}>
                 <Image src="https://via.placeholder.com/230" alt="Product Image" />
                 <Box>
-                  <Text size="7">$ 1.980</Text>
+                  <Text size="7" css={{
+                    '@sm': {
+                      textAlign: 'center'
+                    }
+                  }}>$ 1.980</Text>
                   <Text size="3" css={{
                     mt: '$2',
-                    maxWidth: '400px'
+                    maxWidth: '400px',
+                    '@sm': {
+                      textAlign: 'center'
+                    }
                   }}>
                     Apple Ipod Touch 5g 16gb Negro Igual a Nuevo Completo Unico!
                   </Text>
                 </Box>
               </Flex>
-              <Text>Capital Federal</Text>
+              <Text css={{
+                '@sm': {
+                  marginTop: '18px'
+                }
+              }}>Capital Federal</Text>
             </Flex>
           </Box>
         </Link>
@@ -77,20 +119,42 @@ const Home: NextPage = () => {
             display: 'block',
             py: '$3'
           }}>
-            <Flex justify="between">
-              <Flex gap="3">
+            <Flex justify="between" css={{
+              '@sm': {
+                flexDirection: 'column',
+                alignItems: 'center'
+              }
+            }}>
+              <Flex gap="3" css={{
+                '@sm': {
+                  flexDirection: 'column',
+                  justifyContent: 'center',
+                  alignItems: 'center'
+                }
+              }}>
                 <Image src="https://via.placeholder.com/230" alt="Product Image" />
                 <Box>
-                  <Text size="7">$ 1.980</Text>
+                  <Text size="7" css={{
+                    '@sm': {
+                      textAlign: 'center'
+                    }
+                  }}>$ 1.980</Text>
                   <Text size="3" css={{
                     mt: '$2',
-                    maxWidth: '400px'
+                    maxWidth: '400px',
+                    '@sm': {
+                      textAlign: 'center'
+                    }
                   }}>
                     Apple Ipod Touch 5g 16gb Negro Igual a Nuevo Completo Unico!
                   </Text>
                 </Box>
               </Flex>
-              <Text>Capital Federal</Text>
+              <Text css={{
+                '@sm': {
+                  marginTop: '18px'
+                }
+              }}>Capital Federal</Text>
             </Flex>
           </Box>
         </Link>
